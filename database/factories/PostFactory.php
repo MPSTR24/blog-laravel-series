@@ -21,6 +21,7 @@ class PostFactory extends Factory
             'title' => fake()->text(20),
             'body' => fake()->text(),
             'user_id' => User::factory(),
+            'published' => fake()->boolean(70)
         ];
     }
 }
